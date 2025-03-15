@@ -7,8 +7,8 @@ models:
       - name: order_id
         description: ""
         tests:
-          - not_null:
-          - unique:
+          - not_null
+          - unique
 
       - name: user_id
         description: ""
